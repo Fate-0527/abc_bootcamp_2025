@@ -14,6 +14,7 @@ def get_personality_analysis(face_desc: str) -> str:
 
     # 원하는 어떠한 형태로든 지시문 문자열을 생성하실 수 있습니다.
     # 타입을 str로 지정
+    
     prompt = "당신은 전문 관상가입니다. "
     prompt += "사람들의 얼굴 특징을 보고 성격과 미래를 친근하게 분석해주세요."
     prompt += "\n 얼굴 특징 : " + face_desc
